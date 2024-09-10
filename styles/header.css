@@ -1,4 +1,4 @@
-.cabeçalho__menu-hamburguer {
+.cabeçalho_menu-hamburguer {
     width: 24px;
     height: 24px;
     background-image: url("../img/Menu.svg");
@@ -17,13 +17,13 @@
     display: flex;
     align-items: center;
 }
-.container__imagem {
+.container_imagem {
     padding: 1em;
 }
 .lista-menu {
     display: none;
 }
-.container__botao:checked ~ .lista-menu {
+.container_botao:checked ~ .lista-menu {
     display: block;
 }
 .cabecalho {
@@ -37,7 +37,7 @@
     display: flex;
     align-items: center;
   }
-  .container__imagem{
+  .container_imagem{
     padding: 1em;
   }
   .lista-menu {
