@@ -26,4 +26,19 @@
 .container__botao:checked ~ .lista-menu {
     display: block;
 }
-
+.cabecalho {
+    background-color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+  }
+  
+  /* código omitido */
+  
+  .lista-menu {
+      display: none;
+      position: absolute;
+  }
+  
+  /* código omitido */
