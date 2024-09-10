@@ -33,15 +33,17 @@
     align-items: center;
     position: relative;
   }
-  
-  /* código omitido */
-  
+  .container{
+    display: flex;
+    align-items: center;
+  }
+  .container__imagem{
+    padding: 1em;
+  }
   .lista-menu {
       display: none;
       position: absolute;
   }
-  
-  /* código omitido */
   .lista-menu {
     display: none;
     position: absolute;
