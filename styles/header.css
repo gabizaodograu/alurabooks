@@ -41,11 +41,12 @@
     padding: 1em;
   }
   .lista-menu {
-      display: none;
-      position: absolute;
-  }
-  .lista-menu {
     display: none;
     position: absolute;
     top:100%;
+}
+.lista-menu_titulo,
+.lista-menu_item{
+    padding: 1em;
+    background-color: var(--branco);
 }
