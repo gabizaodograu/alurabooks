@@ -44,6 +44,7 @@
     display: none;
     position: absolute;
     top:100%;
+    width: 60vw;
 }
 .lista-menu_titulo,
 .lista-menu_item{
